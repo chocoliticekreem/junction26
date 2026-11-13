@@ -291,6 +291,25 @@ Server channels:
 
 The server rules: be respectful, English only, no spam or self-promotion (including in DMs), no malware or doxxing.
 
+## Organizer answers during the event (Fri 13 Nov, 19:00–20:30)
+
+- **Multiple challenges:** you can enter as many main challenges as you want, with one submission per challenge. The Head of Comms confirmed it in #event-announcements.
+- **Challenge registration:** a separate registration form opens at **midnight Fri 13 Nov**. "Status: closed" on a challenge only means submissions haven't opened yet.
+- **Preliminary submission (Fri 23:55):** a draft, not the final submission. Peer-review voting decides who reaches the second round.
+- **A teammate leaving on Sunday** doesn't affect the team's participation or eligibility.
+- **Intel challenge:** sign up in line at Intel, first come, first served. Taking an Intel laptop commits you to the Intel challenge, and the laptop can only be used for it.
+- **Hardware:**
+  - Request at 2026.hackjunction.com/hardware. You can request at most 2 items, and you need a table number. Leave a photo ID at the desk as a deposit, and a volunteer confirms the return.
+  - No drones or extra extension cords are provided.
+- **3D printing:** DM the STL file, your table number and team name to the Printing Personnel account on Discord.
+- **Meta glasses dev resources:**
+  - Docs: wearables.developer.meta.com
+  - The Ray-Ban Display simulator Chrome extension
+  - Repos: `meta/meta-wearables-webapp`, `meta-wearables-dat-ios`, `meta-wearables-dat-android`
+  - If a device is registered to another account, factory-reset it.
+- **Tieto:** a sample repo `te-industry-tech-office/junction26-messagepack-csharp` with 4 branches of AI-written changes. The concept is weighted above the implementation.
+- **MLH:** credits for ElevenLabs, TigerData, Solana, Entire, MongoDB and Vultr. The codes are in the hi@mlh.io email.
+
 ## To-do before Friday
 
 - [ ] Join Discord, check #announcements

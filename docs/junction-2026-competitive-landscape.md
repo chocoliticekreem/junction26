@@ -140,5 +140,16 @@ The full briefs are in `junction-2026-challenges.md`. Here's what changes from t
   - S-Pankki "Personal Economic Trainer" (0 people mentioned banking): €2,000 / 1,000 / 500.
   - Espoo "Rethinking Recruitment": €1,500 / 1,000 / 500.
 - **Hardware is the richest track:** Intel €10,000 across 3 places, Rokoko gear worth about €8,400, Aalto €2,000 plus the real G1 humanoid, Arduino boards, and Meta glasses.
-- **Gemini and NVIDIA Nemotron have no challenge on the platform.** Both were pitched on stage as side prizes, but there's nothing to submit to. Check the Tech Challenges tab and Discord before counting on them.
+- **Correction: the side (tech) challenges were on a separate tab, and they're big.** There are 19, open to every team, and they stack on top of main challenges:
+  - Gemini API: €4,000 + $1k GCP per member / €2,000 / €1,000 (18+ only)
+  - Codex: $10k / $5k / $2.5k in API credits
+  - Verda Compute: $10k / $2.5k / $2.5k in credits
+  - Modal: $2,000 cash + $3,000 credits
+  - Gemma: €1,000 to each of 3 teams
+  - Nemotron: an RTX 5080 to each of 2 teams
+  - Aiven: €1,000 / €750 / €500
+  - Arduino: a UNO Q + kit per member
+  Full table in `junction-2026-challenges.md`.
+- **Correction: Cala's "Make Unicorns Real" is in the Agentic AI track (7 challenges), not FinTech.** FinTech has only S-Pankki.
+- **Organizers confirmed you can enter as many main challenges as you want, with one submission each.** A challenge registration form opens at midnight Fri 13 Nov.
 - **Meta glasses:** 10 Display glasses (1–2 free at 19:52, 22 teams waiting, 120-minute loans) and 10 Gen 2. Very few teams can even get hardware, which keeps competition low. Judging is 25% each for creativity, technical execution, real-world value, and UX/accessibility/trust.
