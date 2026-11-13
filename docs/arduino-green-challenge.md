@@ -32,6 +32,46 @@ Team focus for Junction 2026. Sources: the platform brief (challenge 356), the "
 
 What follows from this: 50% of the score is about the physical device actually running AI on the board. Cloud-only AI scores badly. Impact is the other 30%, so put a number on it (kWh saved, waste diverted, CO₂ avoided, people helped).
 
+## All judging that applies to this project
+
+### 1. Arduino: Green European Renaissance (main challenge, judged by Arduino)
+| Criterion | Weight |
+|---|---|
+| Technical Implementation & Edge AI: how well the UNO Q, sensors and on-device AI are used | 30% |
+| Environmental & Social Impact: how much it improves the environment and people's lives | 30% |
+| Creativity & Innovation: originality of the idea and approach | 20% |
+| Working Prototype & Demo: a functioning physical prototype | 20% |
+
+### 2. Best use of Arduino UNO Q (side challenge, judged by Arduino)
+| Criterion | Weight |
+|---|---|
+| Use of Arduino hardware & Edge AI | **50%** |
+| Working prototype & demo | 30% |
+| Creativity | 20% |
+
+### 3. Overall Junction winner (€10,000 main prize)
+- **Stage 1, peer review (Sun 10:30–14:00 per the guide; another section says 13:00):** every hacker reviews the projects assigned to them, and each person rates 5. **If your team doesn't take part, you can't win the main prize.** A team missing from its table can be marked "not present", so someone must stay at the table.
+- **Peer review criteria (from the participant guide):**
+  - **Innovation:** is it new or different from the other projects presented?
+  - **Impact:** does it significantly help society, and what share of the people facing the problem does it reach?
+  - **Implementation:** is it realistic, viable and feasible from every angle?
+- **Stage 2, final:** the top 5 by peer review pitch on stage. Each team gets 3 minutes (the mic is cut at time) plus 3 minutes of Q&A, then 7 judges vote: Supercell, AfterQuery, Founders House, Lifeline Ventures, Google DeepMind, Context.dev, Verda.
+- The preliminary submission isn't final. Peer-review voting decides who reaches the second round (organizer answer).
+
+### 4. Optional side challenges to stack
+| Challenge | Criteria |
+|---|---|
+| Best Use of Gemma (Google's open models) | No weights given. They want innovative, impactful use of Gemma, creative application, strong technical execution, and open models solving real problems. **Gemma can run locally**, which supports the edge and sovereignty story. Check what fits in the UNO Q's 2 GB |
+| Best Use of Gemini API | No weights. They want more than "adding an LLM". The submission must explain: the problem and why it matters, how Gemini is integrated, what's innovative about it, and why Gemini is essential. 18+ only |
+| Best use of Modal | Effective use of Modal 40%, technical ambition 25%, impact 20%, live deployed demo 15% |
+
+### What this means for the build
+- **On-device AI carries the most weight:** 30% for Arduino Green, 50% for Best use of Arduino.
+- **Impact appears in every rubric**, so quantify it.
+- **Working physical demo:** 20–30% of each rubric, and it's what peer reviewers see at your table.
+- **Originality** decides both Arduino creativity and peer-review innovation. Avoid the obvious "smart bin" idea, which other hardware teams will build.
+- **Keep the core AI on the board.** If you add Gemini, use it for a non-critical layer such as a weekly report or a voice interface, so it doesn't weaken the edge-AI argument.
+
 ## Prizes
 
 | Place | Prize (per team member) |
