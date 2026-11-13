@@ -122,4 +122,23 @@ Counts come from "looking for..." phrases vs self-descriptions ("I'm a...", "exp
 4. **Avoid generic agent projects.** That's 28% of the field and the most serious winners. If you go agentic, pick a vertical that uses a partner's data (Cala, Exa, Oxylabs) so you qualify for both a tech challenge and a track.
 5. **Hardware is beatable** if you have real embedded skill. The beginner-heavy field and Arduino's Sunday keynote slot point to a hardware winner getting stage time.
 
-Caveat: none of the challenge briefs are out yet. Re-run this read Friday night once they drop.
+Caveat: everything above was written before the challenge briefs came out. See the update below.
+
+## Update after the challenges came out (Fri 13 Nov, ~19:50)
+
+The full briefs are in `junction-2026-challenges.md`. Here's what changes from the predictions above:
+
+- **AI Infrastructure is smaller than predicted.** The Verda track holds only one challenge, Stoa's "Make Blueprints Talk" (€1,000 + work trial / €750 / €250). Verda's own contribution is €200 compute credits for every participant. The track is still uncrowded, but the prize is small. It's a good second entry, not the main target.
+- **The biggest partner prizes:**
+  - Intel Physical AI: €5,000 / 3,000 / 2,000 (hardware, on-device OpenVINO)
+  - Cala "Make Unicorns Real": about €5,000 in travel for a team of 4, plus credits
+  - Valio Aimo "Trusted Trade Agents": €4,000 / 2,000 / 1,000
+  - AfterQuery "Break the Agent": €3,000 + a work trial
+  - Exa "Internet Butler": $2,500 + $5,000 in credits
+- **Uncontested challenges still pay well.**
+  - Valio Aimo (4 people posted about food) has the second-highest cash prize.
+  - S-Pankki "Personal Economic Trainer" (0 people mentioned banking): €2,000 / 1,000 / 500.
+  - Espoo "Rethinking Recruitment": €1,500 / 1,000 / 500.
+- **Hardware is the richest track:** Intel €10,000 across 3 places, Rokoko gear worth about €8,400, Aalto €2,000 plus the real G1 humanoid, Arduino boards, and Meta glasses.
+- **Gemini and NVIDIA Nemotron have no challenge on the platform.** Both were pitched on stage as side prizes, but there's nothing to submit to. Check the Tech Challenges tab and Discord before counting on them.
+- **Meta glasses:** 10 Display glasses (1–2 free at 19:52, 22 teams waiting, 120-minute loans) and 10 Gen 2. Very few teams can even get hardware, which keeps competition low. Judging is 25% each for creativity, technical execution, real-world value, and UX/accessibility/trust.
