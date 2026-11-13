@@ -187,7 +187,7 @@ Source-page discrepancies: the list page shows only 1st and 2nd for Hostinger; t
 - **Required tech / constraints:** Provided station and Intel stack. Read and accept the Challenge Terms: https://drive.google.com/file/d/1nKs-e-4FNk-AoMq1fCeRKM_6mpIkArRt/view?usp=sharing
 - **Resources:** 25 stations, one per team, in the Junction Hardware Lab, each with an Intel Core Ultra Series 3 (Panther Lake) laptop with 64 GB RAM; SO-101 follower arm with wrist camera and leader arm; two external cameras (top view, inspection), at least one RealSense D415 depth camera; Duplo bricks, bowls, markers; cloud GPU instances; Physical AI Studio; Anomalib, OpenVINO, OpenVINO Physical AI; hands-on technical session Sat 12:00.
 - **Mentors:** 3–5 Intel robotics and edge AI engineers (Physical AI Studio, OpenVINO, Anomalib) on site every day, supported by Ignite Next.
-- **Main contact:** Marvin Müller, Strategic Partnerships & Value Creation Lead, Ignite Next (marvin.mueller@ignitenext.com, +49 160 1684739).
+- **Main contact:** Marvin Müller, Strategic Partnerships & Value Creation Lead, Ignite Next (contact on platform).
 - **Link:** https://hackjunction.app/participate/45/challenges/330
 
 #### The Robot Teleoperation Challenge (id 326)
@@ -231,7 +231,7 @@ Source-page discrepancies: the list page shows only 1st and 2nd for Hostinger; t
 - **Required tech / constraints:** Cala API or MCP must be core.
 - **Resources:** Credits for every team. Docs: docs.cala.ai. Redeem promo code (on platform) at console.cala.ai → Billing → Extra credits → Add credits → Add promo code (no payment details). Workshop "Tips & tricks to Make Unicorns Real", Sat 11:00.
 - **Mentors:** Issey Masuda (co-founder and CTO) plus Cala engineers (knowledge graphs, data pipelines, LLM agents, MCP).
-- **Main contact:** Elies Delgado (Community Growth), elies@cala.ai
+- **Main contact:** Elies Delgado (Community Growth), (email on platform)
 - **Link:** https://hackjunction.app/participate/45/challenges/350 · https://www.cala.ai/
 
 #### Personal Economic Trainer (id 311)
@@ -259,7 +259,7 @@ Source-page discrepancies: the list page shows only 1st and 2nd for Hostinger; t
 - **Resources:** Key insights at the AstraZeneca stand Fri 20:00. Background pack / national cancer strategy 2026–2035 (Finnish): https://files.hackjunction.app/resources/Kansallinen_syopastrategia_2026_2035_FINAL.pdf · Implementation roadmap 2026–2031 (Finnish): https://files.hackjunction.app/resources/Kansallinen_syopastrategia_toimeenpanon_tiekartta_2026_2031.pdf · Source list: https://files.hackjunction.app/resources/Sy%C3%B6p%C3%A4strategiat%20ja%20sy%C3%B6p%C3%A4data_linkkikokoelma.pdf · Finnish Cancer Registry and THL regional health indicators.
 - **Beyond Junction:** Possible follow-up project with a Finnish wellbeing services county.
 - **Mentors:** Fri 13 Nov from 18:00: Hanna Rusila (Marketing), Hanna Toivola (Diagnostics), Kaisa Kaitila (Medical Affairs), Laura Aaltonen (Marketing), Joanna Tuormaa (Business Excellence). Sat 14 Nov daytime: Kaisa Kaitila. Sun 15 Nov 14:00 judging: Hanna Rusila, Laura Aaltonen, Joanna Tuormaa.
-- **Contacts:** Main: Joanna Tuormaa, Innovation and Business Excellence Director, Nordics. Questions: Laura Aaltonen, +358 40 535 8447.
+- **Contacts:** Main: Joanna Tuormaa, Innovation and Business Excellence Director, Nordics. Questions: Laura Aaltonen, (phone on platform).
 - **Link:** https://hackjunction.app/participate/45/challenges/344
 
 #### Beyond the Clinic (id 343)
@@ -301,7 +301,7 @@ Source-page discrepancies: the list page shows only 1st and 2nd for Hostinger; t
 - **Judging (20% each):** Real-world impact; Creative use of live web data; Completeness of demo (production readiness); Technical execution (latency and accuracy); Real-timeness (reacts to change vs one-off snapshot).
 - **Required tech / constraints:** Context.dev (not stated as mandatory, but judging centres on it).
 - **Resources:** 50,000 free non-expiring API credits per team: sign up at https://context.dev/signup, redeem code (on platform) at https://context.dev/dashboard/redeem-credits. Quickstart https://docs.context.dev/quickstart, docs https://docs.context.dev/. Up to 50 concurrent requests per team. Capabilities: search, scrape (markdown, HTML, screenshots, images), crawl, URL mapping, structured extraction, research answers; brand data, company/people search and enrichment, NAICS/SIC; news search, monitors with webhooks; batch API, PDF/document parsing.
-- **Mentors:** Beer van der Drift (CTO, main contact, beer@context.dev), Yahia Bakour (Founder and CEO), Thomas Oomens (Engineer). On site Fri until 23:00, Sat 09:00 to Sun 02:00, Sun 07:00 to end.
+- **Mentors:** Beer van der Drift (CTO, main contact, (email on platform)), Yahia Bakour (Founder and CEO), Thomas Oomens (Engineer). On site Fri until 23:00, Sat 09:00 to Sun 02:00, Sun 07:00 to end.
 - **Link:** https://hackjunction.app/participate/45/challenges/332
 
 #### Rethinking Recruitment (id 319)
