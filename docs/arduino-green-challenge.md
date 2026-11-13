@@ -162,6 +162,24 @@ Edge AI is 30% of the score, and the brief's whole argument is about *not depend
 | Smart recycling bin | Instant feedback and cost at scale help, but a cloud API would also work | ⚠️ Advantageous, not indispensable |
 | Food-waste tracker in kitchens | Works just as well with photos sent to the cloud | ❌ Edge is decoration |
 
+## Shortlist: ideas with a strong live demo (team favourites)
+
+| | Idea | Problem | Demo moment | Why edge is essential |
+|---|---|---|---|---|
+| 1 | **Battery Sentinel**: a camera over a waste conveyor or chute detects lithium batteries and vapes and stops the line | UK: 1,518 waste-site fires in a year, 10+ a week, about £1bn/yr; 8M vapes thrown away incorrectly every week. Germany: up to 30 fires a day ([Waste360](https://www.waste360.com/waste-recycling/uk-recycling-centers-see-10-battery-fires-a-week-as-tossed-vapes-spark-1-3-billion-toll), [WMW](https://waste-management-world.com/materials/vapes-spark-fire-crisis-in-waste-facilities/), [British Safety Council](https://www.britsafe.org/safety-management/2024/unsafe-disposal-of-millions-of-vapes-a-week-causing-environmental-damage-and-rise-in-lithium-ion-battery-fires)) | Drop junk on a tray; a vape goes in and the line instantly stops, flashes red and sounds the buzzer | Latency (the conveyor can't wait for the cloud) and offline industrial sites |
+| 2 | **Hornet Guard**: a camera at the hive entrance tells invasive Asian hornets from bees and triggers a defence or alert | In 15 countries; 500k+ nests in France; ~90,000 bees eaten per nest per season; up to 50% hive losses in Liguria and Portugal ([Down to Earth](https://www.downtoearth.org.in/wildlife-biodiversity/asian-hornet-invasion-threatens-uk-pollinators-as-sightings-surge), [Yahoo/MEPs](https://uk.news.yahoo.com/asian-hornets-killing-off-honey-153105389.html)) | A hornet image or toy passes the "hive" and gets detected, counted and alarmed; bees pass silently | Offline and battery-powered: hives sit in fields |
+| 3 | **Offline sign-language interpreter box** for clinics and public desks | ~1M deaf sign-language users in the EU; 6,500 interpreters, about 1 per 160 users, as bad as 1 per 2,500 in some countries ([ECR](https://ecrgroup.eu/article/ecr_mep_helga_stevens_calls_for_better_statute_for_sign_language_interprete), [EP](https://www.europarl.europa.eu/doceo/document/B-8-2016-1230_EN.html)) | Someone signs into the camera and speech and text come out live | Privacy (health and legal conversations) and latency |
+| 4 | Sign-language capture with Rokoko gloves | Same as #3 | Precise finger tracking turns signs into speech | Same; depends on getting gloves |
+
+### Feasibility check (Fri night)
+- **Battery Sentinel:**
+  - **Data:** public datasets exist. RecyBat24 covers lithium-ion batteries in e-waste (pouch, prismatic and cylindrical cells) ([dataset](https://library.kab.ac.ug/Record/doaj-art-1a00767426d24784a6fa37f6608da67a/Description)), and XBAT+ covers battery detection in WEEE ([datasets](https://sites.google.com/view/dr-rizwankhan/datasets)). Research benchmarks show small YOLO models (YOLOv8n, YOLO11n) work for battery detection ([RT-DETR battery paper](https://www.alphaxiv.org/abs/2605.13670)). Disposable vapes specifically need your own photos.
+  - **Model:** take ~200–500 shots of vapes, batteries and junk on the demo tray. Train a small detector (Edge Impulse supports UNO Q deployment, or Modal GPUs) and run it on the board.
+  - **Originality:** industrial AI waste sorters exist, so pitch the cheap, local, retrofittable device for municipal bins and small sorting sites, not the big plants.
+- **Hornet Guard:**
+  - **Prior art:** the University of Exeter's **VespAI** already detects Asian hornets with **over 99% accuracy** using YOLO on a Raspberry Pi, with a bait station and an overhead camera ([Raspberry Pi blog](https://www.raspberrypi.com/news/track-asian-hornets-with-vespai-magpimonday/), [The Conversation](https://theconversation.com/this-ai-early-warning-system-could-limit-asian-hornet-invasions-226285)). There's also an ESP32 version ([vespCV](https://github.com/vespCV/gv2-esp32)).
+  - **What that means:** detection alone isn't new. Only pursue this with a new angle: an active response at the hive entrance, or a network of cheap community nodes mapping nests.
+
 ## Idea directions that hit every criterion
 
 | Idea | Edge AI on the board | Impact story | Kit fit |
