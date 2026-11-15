@@ -1,0 +1,7 @@
+name: SprayGuard
+description: ""
+ports: []
+bricks:
+- arduino:video_object_detection:
+    model: ei-model-1164455-1
+icon: 😀
